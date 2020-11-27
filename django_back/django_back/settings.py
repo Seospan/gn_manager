@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'polymorphic',
+    'django_extensions',
     'character_manager.apps.CharacterManagerConfig',
     'character_builder_rules.apps.CharacterBuilderRulesConfig',
     'django.contrib.admin',
